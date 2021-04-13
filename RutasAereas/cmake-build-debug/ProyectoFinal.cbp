@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ProyectoFinal"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProyectoFinal">
+				<Option output="C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/ProyectoFinal.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProyectoFinal"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ProyectoFinal/fast">
+				<Option output="C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/ProyectoFinal.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/9.2.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 ProyectoFinal/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuaria/CLionProjects/ProyectoFinal/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/include/Almacen.h">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/include/Imagen.h">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/include/ImagenES.h">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/include/Pais.h">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/include/Paises.h">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/include/Punto.h">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/include/Ruta.h">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/src/Almacen.cpp">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/src/Imagen.cpp">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/src/ImagenES.cpp">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/src/Punto.cpp">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/src/Ruta.cpp">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/src/prueba.cpp">
+			<Option target="ProyectoFinal"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuaria/CLionProjects/ProyectoFinal/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
