@@ -1,80 +1,33 @@
-//
-// Created by Emilio on 07/01/2021.
-//
+ /**
+  * @file Punto.h
+  * @brief Fichero cabecera de la clase Punto
+  *
+  *
+  */
 
-#ifndef PROYECTOFINAL_PUNTO_H
-#define PROYECTOFINAL_PUNTO_H
-
-#include <iostream>
-
-using namespace std;
-
-
-class Punto {
-
-private:
-    double x, y;
-
-public:
+#ifndef _PUNTO_H_
+#define _PUNTO_H_
 
 
-    /**
-     * @brief Constructor por defecto
-     * @param x
-     * @param y
-     */
-    explicit Punto(double x = 0, double y = 0) : x(x), y(y) {}
+#include <fstream>
+ using namespace std;
 
-    /**
-     * @brief Consulta el valor de la coordenada X
-     * @return x
-     */
-    [[nodiscard]] double getX() const;
-
-    /**
-     * @brief Consulta el valor de la coordenada Y
-     * @return y
-     */
-    [[nodiscard]] double getY() const;
-
-    /**
-     * @brief Modifica el valor de la coordenada X
-     * @param coordenadaX
-     */
-    void setX(double coordenadaX);
-
-    /**
-     * @brief Modifica el valor de la coordenada Y
-     * @param coordenadaY
-     */
-    void setY(double coordenadaY);
-
-    /**
-     * @brief Operador de salida de datos
-     * @param os
-     * @param pt
-     * @return Referencia a ostream
-     */
-    friend ostream &operator<<(ostream &os, const Punto &pt);
-
-    /**
-     * @brief Operador de entrada de datos
-     * @param is
-     * @param pt
-     * @return Referencia a istream
-     */
-    friend istream &operator>>(istream &is, Punto &pt);
-
-    /**
-     * @brief Operador de comparación
-     * @param otro
-     * @return Verdadero o Falso
-     */
-    bool operator==(const Punto otro) const;
-
-
-
+class Punto{
+	private:
+	double x, y;
+	
+	public:
+	Punto();
+	Punto(double x, double y, const string &d);
+	double GetX()const{return x;};
+	double GetY()const{return y;};
+	void SetX(double x){this->x = x;};
+	void SetY(double y){this->x = y;};
+	bool operator==(const Punto &P)const;
 };
 
+ostream &operator<<(ostream &os, const Punto &p);
+istream &operator>>(istream &is, Punto &p);
 
-#endif //PROYECTOFINAL_PUNTO_H
+#endif
+
